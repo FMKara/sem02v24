@@ -29,6 +29,3 @@ SHELL ["/bin/bash", "-c"]
 RUN mkdir -p $HOME/go/{src,bin}
 ENV GOPATH="/home/furkan/go"
 ENV PATH="${PATH}:${GOPATH}/bin:/usr/local/go/bin"
-
-
-
