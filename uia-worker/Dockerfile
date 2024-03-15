@@ -8,14 +8,7 @@ sudo \
 nano \
 wget \
 curl \
-git \
-build-essential \
-gcc \
-openjdk-21-jdk \
-mono-complete \
-python3 \
-strace \
-valgrind
+git 
 RUN useradd -G sudo -m -d /home/furkan -s /bin/bash -p "$(openssl passwd -1 besiktas)" furkan
 USER furkan
 WORKDIR /home/furkan
